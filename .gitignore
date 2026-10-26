@@ -1,0 +1,34 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Hugging Face and downloaded datasets
+.cache/
+cache/
+hf_cache/
+~/.cache/huggingface/
+*.arrow
+*.parquet
+
+# Training outputs and model weights
+results/
+logs/
+emotion_model/
+checkpoint-*/
+*.bin
+*.safetensors
+
+# Local secrets, logs, and temporary files
+.env
+.env.*
+*.log
+*.tmp
+*.temp
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
